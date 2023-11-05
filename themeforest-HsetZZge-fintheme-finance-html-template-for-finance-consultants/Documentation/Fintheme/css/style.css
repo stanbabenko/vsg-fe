@@ -1,0 +1,331 @@
+
+/* general styles */
+
+html,body {
+  height: 100%;
+  width: 100%;
+  font-size:15px;
+  font-family: "PT Sans",sans-serif;
+  color:#747474;
+}
+
+p{
+	color:#747474;
+	font-size: 15px;
+    line-height: 24px;
+	font-family: "PT Sans",sans-serif;
+}
+
+/* padded section */
+
+.pad-section { padding: 50px 0 0px; }
+
+.pad-section img { width: 100%; }
+
+/* vertical-centered text */
+
+.text-vcenter {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.text-vcenter h1 {
+  font-size: 4.5em;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: "PT Sans",sans-serif;
+	color: black;
+}
+
+.fa-angle-down{
+	font-size:14px;
+	line-height:10px;
+}
+a, a:hover, a:focus{
+	outline:none;
+}
+
+.fa-angle-right{
+	margin-right:5px;
+	font-size:14px;
+}
+
+/* additional sections */
+
+#top-section {
+  background:url(../image/s-bg.jpg) center bottom;
+  color: white !important;
+  padding:30px 0px 40px;
+  font-family: "PT Sans",sans-serif;
+  width: 100%;
+}
+#top-section .logo{
+	text-align:left;
+} 
+#top-section .title{
+	text-align:right;
+}
+#top-section  img{
+	margin-top:15px;
+}
+#top-section h2{
+	text-transform:uppercase;
+	font-size:43px;
+	color: white !important;
+	font-weight:700;
+}
+#top-section h4{
+	text-transform:capitalize;
+	font-size:20px;
+	font-style:italic;
+	font-weight:700;
+	color: white !important;
+}
+
+/* Navbar */
+
+nav {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: #fff;
+}
+.navbar-default{
+	background:#1abc9c;
+	z-index: 1;
+	border:0px;
+	border-radius:0px;
+	height:63px;
+}
+
+.navbar-collapse{
+	border-top:0px;
+}
+.navbar-default .navbar-nav > li > a{
+	color:#fff;
+	font-family: "PT Sans",sans-serif;
+	padding-bottom: 22px;
+    padding-top: 20px;
+	font-size:15px;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li .dropdown.open,
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover{
+	background-color:#00a181;
+	color:#ffffff;
+}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+    background-color: #ffffff;
+    color: #ffc400;
+    text-decoration: none;
+}
+.navbar-default .navbar-nav .dropdown-menu > li > a{
+	background-color:#ffffff;
+	color:#333333;
+}
+.navbar-default .navbar-nav .dropdown-menu > li > a:hover{
+	color:#ffc400;
+}
+.dropdown-menu > li > a , .dropdown-menu > li > a{
+	border-bottom: 1px solid #eeeeee;
+	font-family: "PT Sans",sans-serif;
+}
+.dropdown-menu{
+	padding:0px;
+	border-top:0px;
+}
+.dropdown-menu > li > a{
+	padding:10px 15px;
+	font-size:13px;
+}
+.navbar-toggle{
+	margin-top:15px;
+	border: 1px solid #888888 !important;
+}
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:focus, .dropdown-menu > .active > a:hover{
+	background-color:#ffffff;
+	color:#ffc400;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover{
+	background-color: #f3ba00;
+    color: #fff;
+}
+/* Sticky */
+.goToTop {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+
+/* Content Area */
+.divider-bottom{
+    background-color: #f0f0f0;
+    height:1px;
+    margin: 15px 0 20px;
+    overflow: hidden;
+}
+.divider-top{
+    background-color: #f0f0f0;
+    height: 1px;
+    margin: 15px 0 13px;
+    overflow: hidden;
+}
+.pad-section h3{
+	margin:10px 0px;
+}
+.section-space{
+	padding-top:20px;
+}
+ul{
+	padding-left:15px;
+}
+#main-title{
+	padding:25px 0px 0px;
+}
+.pad-section li{
+	padding: 10px 0 10px 5px;
+	line-height:25px;
+	color:#333333;
+	font-size:15px;
+}
+.pad-section ul{
+	list-style-type: square;
+}
+.pad-section ol{
+	padding-left:15px;
+}
+.pad-section img{
+	margin:20px 0px;
+}
+.pad-section li a{
+	color:#444;
+	font-weight:700;
+	font-size:15px;
+}
+.pad-section h4{
+	color:#6b6b6b;
+}
+.pad-section li a:hover{
+	color:#333333;
+	text-decoration:none;
+}
+.highlight{
+	color:#1e8cbe;
+	font-weight:700;
+	font-size:15px;
+}
+strong{
+	color:#000;
+}
+.strong-bold{
+	color:#909090;
+	font-weight:700;
+	margin-top:10px;
+}
+.theme-color{
+	color:#ffc400;
+}
+.dark-color{
+	color:#333333;
+	font-weight:600;
+	font-style:italic;
+}
+li.space-left{
+	margin-left:15px;
+	list-style:none;
+}
+#ftp-installation  img.ftp1, #header-setup img.auto{
+	width:auto;
+}
+.panel-group .panel {
+    border-radius: 0;
+    margin-bottom: 13px;
+}
+#accordion .panel-title a{
+	color:#666666;
+}
+#accordion .panel-title a:hover{
+	text-decoration:none;
+	color:#333333;
+}
+#accordion .panel-title a:focus{
+	text-decoration:none;
+	color:#333333;
+}
+#counters-section .shortcodes-example img, .counter-settings .shortcodes-example img{
+	width:auto !important;
+}
+.panel-heading{
+	padding:15px;
+}
+.panel-body {
+    line-height: 20px;
+}
+#faq .pad-section li{
+	padding-bottom:5px;
+}
+#header-setup ol img{
+	margin-bottom:50px;
+}
+/* Header Page */
+#header .section-space{
+	padding:30px 20px 0px;
+}
+.square-list:before {
+    background: #333 none repeat scroll 0 0;
+    content: "";
+    display: inline-block;
+    height: 8px;
+	vertical-align:middle;
+    margin-right: 10px;
+    width: 8px;
+}
+pre {              
+	white-space: pre-line;                 /* CSS3 browsers  */
+	white-space: -moz-pre-line !important; /* 1999+ Mozilla  */
+	white-space: -pre-line;                /* Opera 4 thru 6 */
+	white-space: -o-pre-line;              /* Opera 7 and up */
+	word-wrap: break-word;                 /* IE 5.5+ and up */
+	/* overflow-x: auto; */                /* Firefox 2 only */
+	/* width: 99%; */		       /* only if needed */
+	line-height: 25px;
+    padding: 15px 20px;
+    white-space: pre-line;
+    width: 100%;
+	margin-top:15px;
+}
+.shortcodes-example h5{
+	font-size:16px;
+	text-transform:capitalize;
+	color:#6b6b6b;
+}
+/* Footer */
+
+footer { 
+	background:url(../image/main1.png);
+	margin: 40px 0 0;
+    padding: 15px 0 5px;
+}
+footer p{
+	color:#dddddd; 
+	font-family: "PT Sans",sans-serif;
+	font-size:14px;
+}
+footer .scroll-top a i{
+	background: #555555 none repeat scroll 0 0;
+    border-radius: 2px;
+    bottom: 0;
+    color: #ccc;
+    font-size: 20px;
+    height: 40px;
+    line-height: 36px;
+    position: fixed;
+    right: 28px;
+    text-align: center;
+    width: 40px;
+}

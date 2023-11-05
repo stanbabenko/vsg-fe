@@ -1,0 +1,78 @@
+
+/* ---------- MAX 1199PX ---------- */
+
+@media only screen and (max-width:1199px) {
+.navbar-default{
+	height:125px;
+}
+}
+/* ---------- MAX 767PX ---------- */
+
+@media only screen and (max-width:767px) {
+
+.navbar-default .navbar-nav > li > a {
+    padding-bottom: 12px;
+    padding-top: 12px;
+	border-bottom: 1px solid #eeeeee;
+}
+.navbar-default .navbar-nav > li > a:hover{
+	background:#ffffff;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+	background:transparent;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    background-color: #fff;
+}
+.navbar-nav .open .dropdown-menu > li > a{
+	line-height:30px;
+}
+.navbar-nav .open .dropdown-menu > li > a, .navbar-nav .open .dropdown-menu .dropdown-header{
+	padding: 5px 15px 5px 40px;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li.dropdown a, .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover{
+	color:#ffc400;
+	background-color:#ffffff;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus{
+	color:#000000;
+}
+#top-section .logo, #top-section .title{
+	text-align:center;
+} 
+.navbar-default{
+	height:63px;
+}
+.navbar-collapse.in{
+	overflow-y: auto;
+	overflow-x:hidden;
+}
+.navbar-collapse{
+	max-height:230px;
+}
+.no-padding{
+	padding-left:0px;
+	padding-right:0px;
+}
+.nav {
+    background-color: #ffffff;
+}
+.navbar-nav {
+    margin: 0 -30px;
+    padding: 0 5px;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+	-webkit-box-shadow:3px 3px 5px 0px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    3px 3px 5px 0px #ccc;  /* Firefox 3.5 - 3.6 */
+  box-shadow:        3px 3px 5px 0px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+
+}
+
+/* Dropdown Hover */
+@media only screen and (min-width:767px) {
+.dropdown:hover .dropdown-menu {
+	display: block;
+}
+
+}
