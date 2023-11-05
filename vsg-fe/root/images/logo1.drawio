@@ -1,0 +1,13 @@
+<mxfile host="app.diagrams.net" modified="2023-11-05T15:45:08.387Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Safari/605.1.15" etag="IK46BNVe5i6HGq2WcnDz" version="22.0.8" type="device">
+  <diagram name="Page-1" id="-tBu3wyYHuuYY-9DrheH">
+    <mxGraphModel dx="1692" dy="1669" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FnIKBSUgbWJBhOoiNe0I-1" value="Virtual Strategy Group" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Roboto;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRoboto;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="-90" width="250" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
